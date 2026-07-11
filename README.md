@@ -1,5 +1,7 @@
 # OC2Cartographer
 
+> ⚠️ **Not ready to publish.** This repo/mod is not authorized for distribution. You do not have consent to forward, share, re-upload, or post this to any platform (GitHub, Discord, Nexus Mods, GameBanana, Thunderstore, etc., and any others).
+> 
 This is a beta version. Use this mod at your own discretion and risk. 
 
 - Remove any previous alpha versions (including their config files) before installation 
