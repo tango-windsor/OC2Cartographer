@@ -12,12 +12,35 @@
 >
 > :fork_and_knife: Glad people are excited, that's the best part of this.
 
+## Player Install Guide
+
+Custom kitchens for Overcooked! 2. **Currently invitation only.**
+
+### 1. Register
+Open your **invite link** → read and accept the Terms → **sign in with Steam**.
+You land on the editor site at `provisionsco.pages.dev`.
+
+### 2. Get your files (on the site, once signed in)
+- Click **Get mod** → downloads `OC2Cartographer.dll`
+- Click **Mod token** → downloads `cartographer.token`
+
+### 3. Install
+1. **Remove or disable any other BepInEx mods** (in `BepInEx/plugins` and `BepInEx/scripts`) — should conflicts were later identified.
+2. Put **both** files into your game folder here (create the `OC2Cartographer` folder if needed):
+   ```
+   Overcooked! 2/BepInEx/plugins/OC2Cartographer/
+   ```
+   *(Find the game folder via Steam → right-click Overcooked! 2 → Manage → Browse local files. Requires BepInEx 5.4.21 x86.)*
+
+## 4. First run
+Start the game, go into the game **main menu** (this sets up your account), then **quit and restart** the game. Your custom kitchens are now available.
+
+Keep `cartographer.token` private — it's tied to your Steam account and is traceable.
+
 This is a beta version. Use this mod at your own discretion and risk. 
 
-- Remove any previous alpha versions (including their config files) before installation 
-- Requires OC2DIYLevel mod of version 0.7 placed at `<GameRoot>/BepInEx/plugins/OC2DIYLevel` (thanks to [@gua248](https://github.com/gua248))
-- Install by dropping the `OC2Cartographer.dll` file into `<GameRoot>/BepInEx/plugins/OC2Cartographer` 
+---
 
-Kitchen editor at https://kitchen-editor-tango-windsor.pages.dev/
+Cartographers' Portal at https://provisionsco.pages.dev/ 
 
-Q&A at https://discord.gg/ntxMtHwcn 
+Cartographers' Cabin at https://discord.gg/ntxMtHwcn 
