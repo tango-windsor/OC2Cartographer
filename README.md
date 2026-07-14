@@ -1,7 +1,28 @@
 # OC2 Cartographer
 
 Custom kitchens for **Overcooked! 2** — build and play your own levels, authored as small JSON
-files. No Unity, no game assets shipped, no other mods required.
+files. No Unity, no game assets shipped, no other mods required. 
+
+## Links
+
+- **Cartographers' Portal** — https://provisionsco.pages.dev/
+- **Cartographers' Cabin (Discord)** — https://discord.gg/ntxMtHwcn
+
+## What it is
+
+Cartographer adds its own **"Provisions & Co."** entry to the game's DLC menu. Pick it, choose a
+custom kitchen, and play — solo or in co-op.
+
+It's **self-contained** (a single DLL). At load it borrows a stock game scene as a base kitchen,
+clears its layout, and rebuilds the kitchen from your level file — counters, dispensers, cookers,
+sinks, the serving pass, recipes and all. Every object is materialized from the game's *own* asset
+bundles by name, so a level is just a few kilobytes of JSON and no copyrighted content is ever
+redistributed.
+
+Levels are authored in a companion **web editor** (a grid-based kitchen designer) and shared
+through an **invite-only registry** where friends sign in with Steam and pull maps into the game. 
+
+---
 
 > ⚠️ **Not ready to publish. Not authorized for distribution.**
 >
@@ -18,20 +39,6 @@ files. No Unity, no game assets shipped, no other mods required.
 >   used to work around that. Full respect to Team17 and Ghost Town Games.
 >
 > 🍴 Glad people are excited — that's the best part of this.
-
-## What it is
-
-Cartographer adds its own **"Provisions & Co."** entry to the game's DLC menu. Pick it, choose a
-custom kitchen, and play — solo or in co-op.
-
-It's **self-contained** (a single DLL). At load it borrows a stock game scene as a base kitchen,
-clears its layout, and rebuilds the kitchen from your level file — counters, dispensers, cookers,
-sinks, the serving pass, recipes and all. Every object is materialized from the game's *own* asset
-bundles by name, so a level is just a few kilobytes of JSON and no copyrighted content is ever
-redistributed.
-
-Levels are authored in a companion **web editor** (a grid-based kitchen designer) and shared
-through an **invite-only registry** where friends sign in with Steam and pull maps into the game.
 
 ## Features
 
@@ -74,11 +81,6 @@ dotnet build -c Install -p:OC2GameDir="D:\Games\Overcooked! 2"   # custom path
 ```
 
 `Reload` deploys to `BepInEx/scripts/` for the ScriptEngine hot-reload plugin.
-
-## Links
-
-- **Cartographers' Portal** — https://provisionsco.pages.dev/
-- **Cartographers' Cabin (Discord)** — https://discord.gg/ntxMtHwcn
 
 ## Credits & disclaimer
 
