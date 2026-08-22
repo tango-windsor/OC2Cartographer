@@ -6,7 +6,7 @@ files. No Unity, no game assets shipped, no other mods required.
 ## Links
 
 - **Cartographers' Portal** — https://provisionsco.pages.dev/
-- **Cartographers' Cabin (Discord)** — https://discord.gg/ntxMtHwcn
+- **Cartographers' Cabin (Discord)** — https://discord.gg/YxPRmP5jsW
 
 ## What it is
 
